@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;   /* no scrollbars */
+  height: 100%;
+  width: 100%;
+  background: lightgreen;  /* or whatever bg you want */
+}
+@font-face {
+  font-family:"Ohno-Softie-Variable";
+  src:url("https://fonts.adobe.com/fonts/ohno-softie-variable") format("regular");
+  font-weight:400;
+  font-style:normal;
+canvas {
+  display: block;
+  position: absolute; /* anchor canvas to the viewport */
+  top: 0;
+  left: 0;
+}
